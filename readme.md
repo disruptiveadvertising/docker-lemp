@@ -3,18 +3,16 @@
 - PHP 7.2-fpm or 7.3-fpm
 - MySQL
 - PHPMyAdmin
-- Maildev
 
 ## :rocket: Quickstart 
 - Install and launch Docker  
-- `cp .env.dist .env`  
+- `cp .env.dist .env`
 - `docker-compose up`
 
 | Service      | Path                    |
 | ------------ | ----------------------- |
-| Website      | `http://localhost:8080` | 
-| PhpMyAdmin   | `http://localhost:8081` |
-| Mail catcher | `http://localhost:8082` |
+| Website      | `http://localhost:9090` | 
+| PhpMyAdmin   | `http://localhost:9091` |
 | Logs         | `log/`                  |
 
 ## :whale: Docker images
